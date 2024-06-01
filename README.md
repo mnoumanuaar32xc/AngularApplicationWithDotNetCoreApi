@@ -85,6 +85,28 @@ ng new Project name for create a project in given directory
  ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/cd678b93-29e8-4d0f-bc87-1c3b17665949)
 Via arrow keys select CSS and wait a minute.
 ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/1fbe9507-f1a8-4f9c-93b3-03c5277acfea)
+after successfully project creation 
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/614d047b-60e1-477b-b1f3-2dc83a68cd73)
+Go to the directory and check Code project is created 
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/768227d4-f1e0-4c8f-891f-29ee5f86db6e)
+
+# Open the Vs Code
+in VS Code select File and click on Open Folder and search your project which is created by Powershall command
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/592a2f0e-bab5-468a-8f38-25a81adb3c46)
+
+# Understanding Files in Angular Application. 
+1. Visual Studio code is the editor that is used for develop the angler Application. So this is the IDE for development the Angular applications.
+# Node-module folder
+Node module folder which get the dependencies needed by the angular application
+For us this is not important this is for project creation 
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/4b653a7e-7a78-4d2b-980c-1c1fe60021f8)
+
+
+
+
+ 
+ 
+
 
 
 
