@@ -145,7 +145,6 @@ https://getbootstrap.com/
 Include via cdn is the easy and simplest way 
 Copy the link file and  opend the index.html file and paste inside the head tag and also copy and paste the java script file url.
  ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/24ff65ae-3ccc-4ae5-8c43-0cee0b8cd747)
-
-
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/3be203c5-47d9-4d98-b3c0-eb00aaff4728)
 
  
