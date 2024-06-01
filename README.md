@@ -189,6 +189,10 @@ In Admin comment the all List items and add only on
 Change the name Action into Tranings. 
 ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/1bb9a904-475a-499c-8941-1b7a55b72a12)
 
+# Create Traning List Components and Angular Routing 
+
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/1f49ee99-d15d-41fc-aef2-281d6dabadba)
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/e5dc033a-f9a6-475f-8ea7-a83095af6e84)
 
  
 
