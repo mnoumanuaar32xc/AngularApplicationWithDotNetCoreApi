@@ -1,4 +1,4 @@
-# Angular Application With Dot Net Core Api
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/d41c243b-b098-40c5-b6bf-96f51b6a29b4)# Angular Application With Dot Net Core Api
 
 Before Start Angular please go through bellow api , this API we will use in Angular Application.
 # https://github.com/mnoumanuaar32xc/AuthCoreApi
@@ -100,6 +100,27 @@ in VS Code select File and click on Open Folder and search your project which is
 Node module folder which get the dependencies needed by the angular application
 For us this is not important this is for project creation 
 ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/4b653a7e-7a78-4d2b-980c-1c1fe60021f8)
+
+# Src 
+All necessary files are in src .
+In it we have app and assets and index.html file
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/124060eb-3132-45e6-aca6-4e76682afba7)
+
+# Index.html 
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/484699b5-4613-4b0c-b32c-54e5211f8af7)
+
+#   <app-root></app-root>
+Insides body we have a component that is <app-root> . And this component is angular rendering by default.
+All components are exists inside the app folder 
+
+
+ ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/7470379d-1af5-40e6-a3c2-b29ac6d88600)
+ App.components.ts file 
+Anuglar files are based on transcripts files
+ 
+
+
+
 
 
 
