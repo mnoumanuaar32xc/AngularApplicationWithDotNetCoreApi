@@ -4,14 +4,16 @@ Before Start Angular please go through bellow api , this API we will use in Angu
 # https://github.com/mnoumanuaar32xc/AuthCoreApi
 # Prerequisites  
 At least knowledge about (.NET , .NET Core , Asp. Net , MVC, Web Forms , SQL Server, Bootstrap CSS, JS, Java queries , EF etc).
-# We Will Try We Will try 
+# We Will try 
 1. Installation for Angular application development (for Windows)
-2. Create Nav Bar
-3. Perform Curad Operation Create Traning, List of Traning, Delete Traning, Update Traning.
-4. Login Page then Logout
-6. Access on operation by using Authorization
-7. State Management| Local and Cookies Statemanagement.
-9.  JWT toekn access etc
+2. Structure of Angular
+3. How CSS , JS , HTML workis in Angular
+4. Create Nav Bar
+6. Perform Curad Operation Create Traning, List of Traning, Delete Traning, Update Traning.
+7. Login Page then Logout
+8. Access on operation by using Authorization
+9. State Management| Local and Cookies Statemanagement.
+10.  JWT toekn access etc
 
 # Setting Up Development Environmen 
 We need to setup all the Software and Packages which are need to develop the application and that need to run our course smoothly.
