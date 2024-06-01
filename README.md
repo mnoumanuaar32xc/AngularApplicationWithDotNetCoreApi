@@ -132,5 +132,6 @@ Routs have a map between rout and components that will get loaded where that rou
  That is used for global styles which are used through out the application., otherwise local components.css use
 
 # Run the application Run the application  
-Open the project directory in PowerShell and type 
+Open the project directory in PowerShell and type ng serve --open
+
  
