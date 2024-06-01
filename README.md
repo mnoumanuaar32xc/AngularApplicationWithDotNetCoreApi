@@ -1,4 +1,4 @@
-# Angular Application With Dot Net Core Api
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/1eea2054-0c9e-4da5-bb96-4eb3a66b704d)# Angular Application With Dot Net Core Api
 
 Before Start Angular please go through bellow api , this API we will use in Angular Application.
 # https://github.com/mnoumanuaar32xc/AuthCoreApi
@@ -180,7 +180,15 @@ Copy any templet navbar and try in your code.
 
  ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/8b09369e-2369-4334-99f6-10e2fc0f0e29) 
 
- 
+ # NavBar  Component 
+ Change the NavBar as per your requirements 
+Remove the  <div class="container-fluid"> it just a container
+Change the navbar-brand name Traning
+Change the Dropdown Nav name Dropdown to Admin 
+In Admin comment the all List items and add only on 
+Change the name Action into Tranings. 
+
+
 
  
 
