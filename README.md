@@ -1,4 +1,4 @@
-![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/d41c243b-b098-40c5-b6bf-96f51b6a29b4)# Angular Application With Dot Net Core Api
+# Angular Application With Dot Net Core Api
 
 Before Start Angular please go through bellow api , this API we will use in Angular Application.
 # https://github.com/mnoumanuaar32xc/AuthCoreApi
