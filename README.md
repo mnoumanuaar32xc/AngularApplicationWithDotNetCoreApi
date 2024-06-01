@@ -134,4 +134,12 @@ Routs have a map between rout and components that will get loaded where that rou
 # Run the application Run the application  
 Open the project directory in PowerShell and type ng serve --open
 
+on powershell following script will be generate 
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/3caddde8-4dec-4814-b5a6-ca50b2a08aa2)
+
+and on Browser mainely on Microsoft Edge web Application will be open 
+
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/1a2a1098-64a1-4190-b50d-0f329230b294)
+
+
  
