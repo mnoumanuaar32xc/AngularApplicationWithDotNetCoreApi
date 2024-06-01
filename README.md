@@ -1,4 +1,4 @@
-# Angular Application With Dot Net Core Api
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/1c59861b-4f8a-487a-bcbc-d55ad9961094)# Angular Application With Dot Net Core Api
 
 Before Start Angular please go through bellow api , this API we will use in Angular Application.
 # https://github.com/mnoumanuaar32xc/AuthCoreApi
@@ -149,5 +149,21 @@ Copy the link file and  opend the index.html file and paste inside the head tag 
 
 # For conformation we added a write css and js files create a button inside the index.html 
 <button class="btn btn-primary"> Button </button>
+open the app.component.html and remove bulien templet all html and css code , check the browser 
+
+
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/807ad491-6983-43a1-966b-8413c095b420)
+
+
+ # NavBar component
+Navbar component are the component which available on entire pages on application .
+Router-outlet are the component which change the component as per navbar bar selection.
+Navbar are placed in app.component.ts file and the is fixed
+
+
+
+
  
+
+
 
