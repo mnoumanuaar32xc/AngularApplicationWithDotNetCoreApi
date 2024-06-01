@@ -7,13 +7,14 @@ At least knowledge about (.NET , .NET Core , Asp. Net , MVC, Web Forms , SQL Ser
 # We Will try 
 1. Installation for Angular application development (for Windows)
 2. Structure of Angular
-3. How CSS , JS , HTML workis in Angular
-4. Create Nav Bar
+3. Routoing
+4. How CSS , JS , HTML workis in Angular
+5. Create Nav Bar
 6. Perform Curad Operation Create Traning, List of Traning, Delete Traning, Update Traning.
 7. Login Page then Logout
 8. Access on operation by using Authorization
 9. State Management| Local and Cookies Statemanagement.
-10.  JWT toekn access etc
+10. JWT toekn access etc
 
 # Setting Up Development Environmen 
 We need to setup all the Software and Packages which are need to develop the application and that need to run our course smoothly.
@@ -112,14 +113,24 @@ In it we have app and assets and index.html file
 All components are exists inside the app folder
 ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/484699b5-4613-4b0c-b32c-54e5211f8af7)
 
-
-
-
  
 App.components.ts file 
 Anuglar files are based on transcripts files
  ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/8f155532-4a02-48cd-bbe5-3e677c8730c8)
 
+# Assets  
+To keeps the static files and other css and images etc
+
+ # Main.ts 
+ 1. This file is main file of project which is basically a starting up a AppModule which resides inside the app folder app.module.ts
+ 2. app.module.ts is an important file which handles all the imports declarations and providers and submits and use this information to provide to the entire application. 
+# App.routing.module.ts
+That file use to create routes 
+Routs have a map between rout and components that will get loaded where that rout is accessed.
+ 
+ 
+
+ 
  
  
 
