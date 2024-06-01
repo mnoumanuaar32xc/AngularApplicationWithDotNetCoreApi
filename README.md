@@ -40,6 +40,7 @@ https://www.microsoft.com/en-us/sql-server/sql-server-downloads
 
 # Download and Install VSCode
 https://code.visualstudio.com/
+
 ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/f3ab3c3c-9714-46f9-9f5c-d607fc9684fc)
 
 # Visual Studio Code Extensions 
