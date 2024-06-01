@@ -147,4 +147,7 @@ Copy the link file and  opend the index.html file and paste inside the head tag 
  ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/24ff65ae-3ccc-4ae5-8c43-0cee0b8cd747)
 ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/3be203c5-47d9-4d98-b3c0-eb00aaff4728)
 
+# For conformation we added a write css and js files create a button inside the index.html 
+<button class="btn btn-primary"> Button </button>
  
+
