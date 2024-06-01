@@ -110,7 +110,8 @@ In it we have app and assets and index.html file
 # Index.html 
 ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/484699b5-4613-4b0c-b32c-54e5211f8af7)
 
-#   <app-root></app-root>
+
+# app-root <app-root></app-root>
 Insides body we have a component that is <app-root> . And this component is angular rendering by default.
 All components are exists inside the app folder 
 
