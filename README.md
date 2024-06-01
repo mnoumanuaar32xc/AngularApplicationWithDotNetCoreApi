@@ -141,5 +141,18 @@ and on Browser mainely on Microsoft Edge web Application will be open
 
 ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/1a2a1098-64a1-4190-b50d-0f329230b294)
 
+# Clean angular project and import Bootstrap CDN  
+
+Open the app.component.html  and remove all Html and style code except 
+router-outlet router-outlet 
+Because router-out is only responsible for display the component that are render from the app routing module. 
+
+# Bootstrap CDN 
+
+
+
+
+
+
 
  
