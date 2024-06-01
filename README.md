@@ -159,6 +159,22 @@ open the app.component.html and remove bulien templet all html and css code , ch
 Navbar component are the component which available on entire pages on application .
 Router-outlet are the component which change the component as per navbar bar selection.
 Navbar are placed in app.component.ts file and the is fixed
+# Example of NavBar
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/f7bef1a1-872a-49b0-b0a0-e5e5c74f3f93)
+
+# Create a NavBar Component 
+In Vs code Create folder in app folder Core then inside new folder name  Component 
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/07df1786-5c3d-4b39-b262-a0216a6d4cb7)
+ **NavBar Component **  Open the terminal of core > component folder in VS code 
+ open the terminal and create the component Navbar in Component folder ng g c Navbar
+ 
+ ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/188cf65a-1ff2-4673-b9a0-c1535e541ae4) 
+
+ 
+
+ 
+
+
 
 
 
