@@ -107,18 +107,20 @@ In it we have app and assets and index.html file
 ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/cabb82d0-92b9-4323-8a3b-256b04781308)
 
 
-# Index.html 
+# Index.html  and app-root <app-root></app-root>
+ app-root /app-root Insides body we have a component that is  app-root  . And this component is angular rendering by default.
+All components are exists inside the app folder
 ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/484699b5-4613-4b0c-b32c-54e5211f8af7)
 
 
-# app-root <app-root></app-root>
-Insides body we have a component that is <app-root> . And this component is angular rendering by default.
-All components are exists inside the app folder 
 
 
- ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/7470379d-1af5-40e6-a3c2-b29ac6d88600)
- App.components.ts file 
+ 
+App.components.ts file 
 Anuglar files are based on transcripts files
+ ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/8f155532-4a02-48cd-bbe5-3e677c8730c8)
+
+ 
  
 
 
