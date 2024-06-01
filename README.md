@@ -1,4 +1,4 @@
-# Angular Application With Dot Net Core Api
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/028d52d2-f587-4a57-82a4-2f900795044d)# Angular Application With Dot Net Core Api
 
 Before Start Angular please go through bellow api , this API we will use in Angular Application.
 # https://github.com/mnoumanuaar32xc/AuthCoreApi
@@ -169,6 +169,17 @@ In Vs code Create folder in app folder Core then inside new folder name  Compone
  open the terminal and create the component Navbar in Component folder ng g c Navbar
  
  ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/188cf65a-1ff2-4673-b9a0-c1535e541ae4) 
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/76955f78-b0ca-46b0-b3ac-4f235ef3e2a1)
+You can see we have 4 files of Navbar created . That is the Navbar component . 
+Just to the app.component.html where **router-outlet /router-outlet**  available . Add the <app-navbar></app-navbar>  component tag over here.
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/7bd9b15e-2714-4733-97c5-49ed50e1056b)
+
+ # Add Bootstrap NavBar into Component 
+ Visit website **https://getbootstrap.com/docs/5.3/getting-started/introduction/** and search the Navbar
+Copy any templet navbar and try in your code.
+
+ ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/8b09369e-2369-4334-99f6-10e2fc0f0e29)
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/337d9322-d57e-4cb8-aa37-9c849d6cbae5)
 
  
 
