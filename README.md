@@ -1,4 +1,4 @@
-# Angular Application With Dot Net Core Api
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/85cab43a-43ad-4d69-9ebe-65fa84ced6b1)# Angular Application With Dot Net Core Api
 
 Before Start Angular please go through bellow api , this API we will use in Angular Application.
 # https://github.com/mnoumanuaar32xc/AuthCoreApi
@@ -128,56 +128,9 @@ To keeps the static files and other css and images etc
 That file use to create routes 
 Routs have a map between rout and components that will get loaded where that rout is accessed.
  
- 
+ # Style.css 
+ That is used for global styles which are used through out the application., otherwise local components.css use
 
- 
- 
- 
-
-
-
-
-
-
-
- 
- 
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
- 
-
- 
-
-
-
-
-
-
- 
-
-
-
-
- 
-
-
-
-
-
-
-
+# Run the application Run the application  
+Open the project directory in PowerShell and type 
  
