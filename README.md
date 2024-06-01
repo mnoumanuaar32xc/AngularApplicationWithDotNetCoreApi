@@ -1,4 +1,4 @@
-![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/028d52d2-f587-4a57-82a4-2f900795044d)# Angular Application With Dot Net Core Api
+# Angular Application With Dot Net Core Api
 
 Before Start Angular please go through bellow api , this API we will use in Angular Application.
 # https://github.com/mnoumanuaar32xc/AuthCoreApi
@@ -178,8 +178,7 @@ Just to the app.component.html where **router-outlet /router-outlet**  available
  Visit website **https://getbootstrap.com/docs/5.3/getting-started/introduction/** and search the Navbar
 Copy any templet navbar and try in your code.
 
- ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/8b09369e-2369-4334-99f6-10e2fc0f0e29)
-![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/337d9322-d57e-4cb8-aa37-9c849d6cbae5)
+ ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/8b09369e-2369-4334-99f6-10e2fc0f0e29) 
 
  
 
