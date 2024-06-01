@@ -45,15 +45,9 @@ https://www.microsoft.com/en-us/sql-server/sql-server-downloads
 # Visual Studio Code Extensions 
 During the angular development we need some visual studio code extensions that would make a life ease for development.
 During the angular development we need some visual studio code extensions that would make a life ease for development.
-
-
 ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/a4f307cb-67b5-46e4-b0fa-87387f6264bc)
-
 ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/cc0d02f2-2d17-40b1-9939-96c6f6022b9e)
-
 ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/ca149e68-f9e2-4dda-930a-7c2ad1b39ff1)
-
-
 ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/b21be409-dc9d-4803-a005-65777de8d1b0)
 
 
