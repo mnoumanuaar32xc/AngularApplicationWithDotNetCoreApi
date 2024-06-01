@@ -1,4 +1,4 @@
-# Angular Application With Dot Net Core Api
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/0c46729a-4124-4cd9-b187-af2cd6ef7c9f)# Angular Application With Dot Net Core Api
 
 Before Start Angular please go through bellow api , this API we will use in Angular Application.
 # https://github.com/mnoumanuaar32xc/AuthCoreApi
@@ -190,11 +190,28 @@ Change the name Action into Tranings.
 ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/1bb9a904-475a-499c-8941-1b7a55b72a12)
 
 # Create Traning List Components and Angular Routing 
-
-![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/1f49ee99-d15d-41fc-aef2-281d6dabadba)
+ 
 ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/e5dc033a-f9a6-475f-8ea7-a83095af6e84)
 
- 
+ Component Traning List  in terminal ** ng g c traning-list**
+
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/d3958433-ff5d-4978-8934-56e0cb11f35d)
+# Add the traning-list component with Routing  
+Open the app-routing.module.ts file and set the routs for traning-list Component. 
+Run the Url in brouser   
+1St step 
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/0ae97fd2-d190-4f25-951e-36066ce88020)
+2nd Step 
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/2671c7e9-d671-48ce-97a2-a90c339e6570)
+3rs Step output
+ ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/2160d2d0-263e-4507-b7e5-f9a91f8f1480)
+
+**Directives ** Best way of using directives router link we use [] brackets to pass other information also like 
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/9126d2c2-c689-42c1-b0a3-d17349f182f0)
+
+
+
+
 
 
 
