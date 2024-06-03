@@ -200,12 +200,17 @@ Change the name Action into Tranings.
 Open the app-routing.module.ts file and set the routs for traning-list Component. 
 Run the Url in brouser   
 1St step 
-![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/0ae97fd2-d190-4f25-951e-36066ce88020)
-2nd Step 
-![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/2671c7e9-d671-48ce-97a2-a90c339e6570)
-3rs Step output
- ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/2160d2d0-263e-4507-b7e5-f9a91f8f1480)
 
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/0ae97fd2-d190-4f25-951e-36066ce88020)
+
+2nd Step 
+
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/2671c7e9-d671-48ce-97a2-a90c339e6570)
+
+3rs Step output
+
+ ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/2160d2d0-263e-4507-b7e5-f9a91f8f1480)
+ 
 **Directives ** Best way of using directives router link we use [] brackets to pass other information also like 
 
 ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/9126d2c2-c689-42c1-b0a3-d17349f182f0)
