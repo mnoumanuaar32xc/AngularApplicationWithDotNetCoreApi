@@ -207,6 +207,7 @@ Run the Url in brouser
  ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/2160d2d0-263e-4507-b7e5-f9a91f8f1480)
 
 **Directives ** Best way of using directives router link we use [] brackets to pass other information also like 
+
 ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/9126d2c2-c689-42c1-b0a3-d17349f182f0)
 
 
