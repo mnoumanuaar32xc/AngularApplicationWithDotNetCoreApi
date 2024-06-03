@@ -225,6 +225,23 @@ ng g c add-traning
 
 
 
+# Create Templet forms  
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/4fc7eff1-2aeb-45b4-a22f-a4d74521b6fb)
+
+1. Import the FormsModule and     HttpClientModule in app.module.ts
+2. add Form form  #form="ngForm" (ngSubmit)="onFormSubmit()" in Add Traning Templete. Implement the onFormSubmit function in  add-traning.component.ts
+3. create the request Model for accept The valuse from Add traning Page , model paramenters valuse must be same as APi request model
+
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/e7a99b67-227e-49ee-ab86-b7ef007c7d9a)
+4. Add constractor and Initilize the model as like 
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/01a7ea23-7e49-4b67-bf69-be76ac53be68)
+
+
+
+
+
+
+
 
 
 
