@@ -221,6 +221,9 @@ ng g c add-traning
 
 ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/2119cd69-2780-4d9f-a6f1-6d4dc07cb02f)
 
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/c5d21b72-3452-45fd-80d5-64403a84d8f7)
+
+
 
 
 
