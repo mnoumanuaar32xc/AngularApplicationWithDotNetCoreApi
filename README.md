@@ -263,6 +263,10 @@ Then in terminal create a service  ng g s traning-services
 bellow image shows I implement Get traning, Get traning ID , Add Training, Update Training, Delete Training 
 ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/e5c7cf37-5946-4d1f-89a4-d7457286fdfa)
 
+**Call the Add Training API by UI**
+
+
+
 
 
 
