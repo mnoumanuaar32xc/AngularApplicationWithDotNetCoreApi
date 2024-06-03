@@ -233,8 +233,32 @@ ng g c add-traning
 3. create the request Model for accept The valuse from Add traning Page , model paramenters valuse must be same as APi request model
 
 ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/e7a99b67-227e-49ee-ab86-b7ef007c7d9a)
+
 4. Add constractor and Initilize the model as like 
+
 ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/01a7ea23-7e49-4b67-bf69-be76ac53be68)
+
+5.
+onFormSubmit(){ 
+      console.log(this.model);
+  }
+  Add the  [(ngModel)]="model.Name" and  [(ngModel)]="model.Lavel" in AddTraning.html text fields and try to check the values in consol
+  
+  ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/6f8be159-9bf4-4309-9239-8cc3c912e8d2)
+
+  
+
+7. Angular Service 
+we will create an angular service and we'll submit this form and give data to the Angular service where it will talk to the API that we created,
+the ASP.Net Core API, and it will submit Create a new folder name services in traning folder
+Then in terminal create a service  ng g s traning-services
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/73590190-a3a7-4bc6-bb48-7af621d370c9)
+
+
+
+
+
+9. 
 
 
 
