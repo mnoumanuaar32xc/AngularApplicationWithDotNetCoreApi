@@ -216,6 +216,11 @@ Run the Url in brouser
 ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/9126d2c2-c689-42c1-b0a3-d17349f182f0)
 
 
+# Add Traning Component  
+ng g c add-traning
+
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/2119cd69-2780-4d9f-a6f1-6d4dc07cb02f)
+
 
 
 
