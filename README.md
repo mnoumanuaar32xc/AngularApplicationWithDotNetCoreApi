@@ -264,7 +264,8 @@ bellow image shows I implement Get traning, Get traning ID , Add Training, Updat
 ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/e5c7cf37-5946-4d1f-89a4-d7457286fdfa)
 
 **Call the Add Training API by UI**
-
+before Call API need to understand **Subscriber** This allows us to keep our logic for making API calls and subscribing to its results in a separate file from our component, making our code more maintainable and easier to read.
+ ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/c16bea1c-ea7d-4f27-8ae6-660933ddc16d)
 
 
 
