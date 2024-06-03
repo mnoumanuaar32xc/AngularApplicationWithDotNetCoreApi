@@ -255,10 +255,13 @@ Then in terminal create a service  ng g s traning-services
 ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/73590190-a3a7-4bc6-bb48-7af621d370c9)
 
 
+8. You can see the service class that name is TraningServicesService and that is Injectable  means it accessible allover the application,
+ ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/3b8c3e51-a869-48e9-ab80-99f183d289a7)
 
 
-
-9. 
+# create all APIs in Angular Services 
+bellow image shows I implement Get traning, Get traning ID , Add Training, Update Training, Delete Training 
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/e5c7cf37-5946-4d1f-89a4-d7457286fdfa)
 
 
 
