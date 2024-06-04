@@ -320,7 +320,7 @@ Go to terminal and type  ng generate  environments
 ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/b5a59375-6ff6-46b7-8a4d-75c184eee17d)
 
 ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/e4a8f9cb-d393-44db-9704-3411584034a9)
-change the URl 
+change the URl and the URl in both enviroment files
 ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/533d2119-7acf-4ea1-9bb8-8747f9ea69f2)
 
 **Create Angular Service GET ALL Trainings**
