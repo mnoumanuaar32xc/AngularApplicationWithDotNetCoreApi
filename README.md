@@ -314,16 +314,21 @@ in add-training-compoinent
     // when Subscription completed on destroyed callas Subscripotion will be unsubscribed
     this.addCategorySubscription?.unsubscribe();
   }
-
  
-  **Create Angular Service GET ALL Trainings**
+  # Create Environment File  
+Go to terminal and type  ng generate  environments  
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/b5a59375-6ff6-46b7-8a4d-75c184eee17d)
+
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/e4a8f9cb-d393-44db-9704-3411584034a9)
+
+**Create Angular Service GET ALL Trainings**
   Ist create a model in Angular 
   Create a function in service get all Trainings and call the model in observable
   ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/956247cb-25a3-4334-9215-8e191930f11b)
 
 
-  
- 
+
+
 
  
 
