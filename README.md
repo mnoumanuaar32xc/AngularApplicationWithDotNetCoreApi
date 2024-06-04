@@ -1,4 +1,4 @@
-# Angular Application With Dot Net Core Api
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/879dc459-14f7-4b78-9355-265faf5b4e44)![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/1bfa0c6c-5402-4d02-99e2-4799e555c7bf)![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/a9e15f68-7eae-420c-bb15-004712674db6)# Angular Application With Dot Net Core Api
 
 Before Start Angular please go through bellow api , this API we will use in Angular Application.
 https://github.com/mnoumanuaar32xc/AuthCoreApi
@@ -327,10 +327,29 @@ change the URl and the URl in both enviroment files
   Ist create a model in Angular 
   Create a function in service get all Trainings and call the model in observable
   ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/956247cb-25a3-4334-9215-8e191930f11b)
+# Create a Table in angular  in traning-list.component.html and Buind with Api Service 
+# Async Pipe to subscribe and unsubscribe  
+Angular template, you can use the async pipe to directly display data from an Observable.
+async pipe subscribes to the observable and updates the view whenever new data is emitted.
+
+ # Get a  Category By ID-API and Create EDIT Component and Pass route Parameters 
+1.  Ng g c edit-training
+2. Add the rout for Edit button and add the rout link in Eidt button. When on click edit button we need to move on Edit page
+3. In EditeComponent.ts file inject the activated route
+4. Create onint function get the routs parms value by pams id
+5. Add the subscription and use the ondestry function to end to subscription make it unsubscribe . That is helpful for memory leaks.
+6. Then try to use to show the model value in to html <h1>   {{id}} </h1>
+
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/4ec9821e-9d29-49ca-ac63-0bc158526c0d)
 
 
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/e591cf94-21b5-4702-8184-6736b905f845)
 
 
+ 
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/2806b664-790a-4332-a74e-27748486f4bd)
+
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/984267d8-88e5-448a-bfd6-1d74aebcc398)
 
  
 
