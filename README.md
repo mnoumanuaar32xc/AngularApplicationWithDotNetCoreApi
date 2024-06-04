@@ -10,13 +10,15 @@ At least knowledge about (.NET , .NET Core , Asp. Net , MVC, Web Forms , SQL Ser
 1. Installation for Angular application development (for Windows)
 2. Structure of Angular
 3. Routoing
-4. How CSS , JS , HTML workis in Angular
-5. Create Nav Bar
-6. Perform Curad Operation Create Traning, List of Traning, Delete Traning, Update Traning.
-7. Login Page then Logout
-8. Access on operation by using Authorization
-9. State Management| Local and Cookies Statemanagement.
-10. JWT toekn access etc
+4. Subscribers
+5. Directives (RouterLink)
+6. How CSS , JS , HTML workis in Angular
+7. Create Nav Bar
+8. Perform Curad Operation Create Traning, List of Traning, Delete Traning, Update Traning.
+9. Login Page then Logout
+10. Access on operation by using Authorization
+11. State Management| Local and Cookies Statemanagement.
+12. JWT toekn access etc
 
 # Setting Up Development Environmen 
 We need to setup all the Software and Packages which are need to develop the application and that need to run our course smoothly.
