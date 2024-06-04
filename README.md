@@ -1,7 +1,7 @@
 # Angular Application With Dot Net Core Api
 
 Before Start Angular please go through bellow api , this API we will use in Angular Application.
-# https://github.com/mnoumanuaar32xc/AuthCoreApi
+https://github.com/mnoumanuaar32xc/AuthCoreApi
 
 # Prerequisites  
 At least knowledge about (.NET , .NET Core , Asp. Net , MVC, Web Forms , SQL Server, Bootstrap CSS, JS, Java queries , EF etc).
@@ -10,13 +10,18 @@ At least knowledge about (.NET , .NET Core , Asp. Net , MVC, Web Forms , SQL Ser
 1. Installation for Angular application development (for Windows)
 2. Structure of Angular
 3. Routoing
-4. How CSS , JS , HTML workis in Angular
-5. Create Nav Bar
-6. Perform Curad Operation Create Traning, List of Traning, Delete Traning, Update Traning.
-7. Login Page then Logout
-8. Access on operation by using Authorization
-9. State Management| Local and Cookies Statemanagement.
-10. JWT toekn access etc
+4. Observable | Subscribers
+5. Unsubscribing from Observables
+6. CORS  
+7. Directives (RouterLink)
+8. How CSS , JS , HTML workis in Angular
+9. Create Nav Bar
+10. Perform Curad Operation Create Traning, List of Traning, Delete Traning, Update Traning.
+11. Create Environment File  
+12. Login Page then Logout
+13. Access on operation by using Authorization
+14. State Management| Local and Cookies Statemanagement.
+15. JWT toekn access etc
 
 # Setting Up Development Environmen 
 We need to setup all the Software and Packages which are need to develop the application and that need to run our course smoothly.
@@ -190,11 +195,171 @@ Change the name Action into Tranings.
 ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/1bb9a904-475a-499c-8941-1b7a55b72a12)
 
 # Create Traning List Components and Angular Routing 
-
-![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/1f49ee99-d15d-41fc-aef2-281d6dabadba)
+ 
 ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/e5dc033a-f9a6-475f-8ea7-a83095af6e84)
 
+ Component Traning List  in terminal ** ng g c traning-list**
+
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/d3958433-ff5d-4978-8934-56e0cb11f35d)
+# Add the traning-list component with Routing  
+Open the app-routing.module.ts file and set the routs for traning-list Component. 
+Run the Url in brouser   
+1St step 
+
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/0ae97fd2-d190-4f25-951e-36066ce88020)
+
+2nd Step 
+
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/2671c7e9-d671-48ce-97a2-a90c339e6570)
+
+3rs Step output
+
+ ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/2160d2d0-263e-4507-b7e5-f9a91f8f1480)
  
+**Directives ** Best way of using directives router link we use [] brackets to pass other information also like 
+
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/9126d2c2-c689-42c1-b0a3-d17349f182f0)
+
+
+# Add Traning Component  
+ng g c add-traning
+
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/2119cd69-2780-4d9f-a6f1-6d4dc07cb02f)
+
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/c5d21b72-3452-45fd-80d5-64403a84d8f7)
+
+
+
+# Create Templet forms  
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/4fc7eff1-2aeb-45b4-a22f-a4d74521b6fb)
+
+1. Import the FormsModule and     HttpClientModule in app.module.ts
+2. add Form form  #form="ngForm" (ngSubmit)="onFormSubmit()" in Add Traning Templete. Implement the onFormSubmit function in  add-traning.component.ts
+3. create the request Model for accept The valuse from Add traning Page , model paramenters valuse must be same as APi request model
+
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/e7a99b67-227e-49ee-ab86-b7ef007c7d9a)
+
+4. Add constractor and Initilize the model as like 
+
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/01a7ea23-7e49-4b67-bf69-be76ac53be68)
+
+5.
+onFormSubmit(){ 
+      console.log(this.model);
+  }
+  Add the  [(ngModel)]="model.Name" and  [(ngModel)]="model.Lavel" in AddTraning.html text fields and try to check the values in consol
+  
+  ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/6f8be159-9bf4-4309-9239-8cc3c912e8d2)
+
+  
+
+7. Angular Service 
+we will create an angular service and we'll submit this form and give data to the Angular service where it will talk to the API that we created,
+the ASP.Net Core API, and it will submit Create a new folder name services in traning folder
+Then in terminal create a service  ng g s traning-services
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/73590190-a3a7-4bc6-bb48-7af621d370c9)
+
+
+8. You can see the service class that name is TraningServicesService and that is Injectable  means it accessible allover the application,
+ ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/3b8c3e51-a869-48e9-ab80-99f183d289a7)
+
+
+# create all APIs in Angular Services 
+bellow image shows I implement Get traning, Get traning ID , Add Training, Update Training, Delete Training 
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/e5c7cf37-5946-4d1f-89a4-d7457286fdfa)
+
+**Observables**
+In Angular, Observables are part of the Reactive Extensions for JavaScript (RxJS) library. Observables provide support for passing messages between parts of your application.
+Observables are a powerful feature used extensively in reactive programming to handle asynchronous operations and data streams.
+Observables provide a way to subscribe to and receive notifications when new data or events are emitted, enabling you to react to changes in real-time.
+
+**CORS**
+Cross-origin resource sharing (CORS) is a mechanism for integrating applications. CORS defines a way for client web applications that are loaded in one domain to interact with resources in a different domain.It is the way to protect the API resource.  
+ 
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/7e2e6315-4b94-4c9b-bfeb-6ab88e2c27ad)
+In Progam.css allow the CROS then restart the application.
+If API is with HTTPS then stop the PowerShell app and restart with SST true 
+ng serve --open --ssl true
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/52e90572-5180-4def-be87-41750ae10e50)
+
+**Call the Add Training API by UI**
+before Call API need to understand **Subscriber** This allows us to keep our logic for making API calls and subscribing to its results in a separate file from our component, making our code more maintainable and easier to read.
+ ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/c16bea1c-ea7d-4f27-8ae6-660933ddc16d)
+
+ After Submit form you can see the status 
+ ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/9ffe9c80-32ca-40b3-a261-da15e9fabd37)
+ 
+ **Unsubscribing from Observables** 
+1. unsubscribing from observables in Angular is crucial for proper management of memory, optimizing performance, preventing ghost subscriptions, and avoiding unnecessary network requests and improving the code maintainability.
+2. So a lot of factors are there in the favor of unsubscribing observables.
+3. It can lead to memory leaks.
+4. It is always a best practice to unsubscribe from subscriptions when they are no longer needed to ensure the smooth functioning of your application.
+5. **Main them is that when the API connection is done so we need to destroy all Objects of API Service from the application**.
+
+**Example of Unsubscription **
+in add-training-compoinent 
+1. export class AddTraningComponent implements OnDestroy
+2. private addyTrainingSubscription?:Subscription;
+3.    this.addCategorySubscription= this.categoryService.addCaterory(this.model).subscribe({
+
+      next:(response)=>{
+         // console.log("Success");
+         this.router.navigateByUrl('/Admin/Categories');
+      },
+      error:(error)=>{
+        console.log('Fail'+ error );
+      }
+    });
+4. ngOnDestroy(): void {
+    // when Subscription completed on destroyed callas Subscripotion will be unsubscribed
+    this.addCategorySubscription?.unsubscribe();
+  }
+ 
+  # Create Environment File  
+Go to terminal and type  ng generate  environments  
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/b5a59375-6ff6-46b7-8a4d-75c184eee17d)
+
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/e4a8f9cb-d393-44db-9704-3411584034a9)
+change the URl and the URl in both enviroment files
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/533d2119-7acf-4ea1-9bb8-8747f9ea69f2)
+
+**Create Angular Service GET ALL Trainings**
+  Ist create a model in Angular 
+  Create a function in service get all Trainings and call the model in observable
+  ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/956247cb-25a3-4334-9215-8e191930f11b)
+# Create a Table in angular  in traning-list.component.html and Buind with Api Service 
+# Async Pipe to subscribe and unsubscribe  
+Angular template, you can use the async pipe to directly display data from an Observable.
+async pipe subscribes to the observable and updates the view whenever new data is emitted.
+
+ # Get a  Category By ID-API and Create EDIT Component and Pass route Parameters 
+1.  Ng g c edit-training
+2. Add the rout for Edit button and add the rout link in Eidt button. When on click edit button we need to move on Edit page
+3. In EditeComponent.ts file inject the activated route
+4. Create onint function get the routs parms value by pams id
+5. Add the subscription and use the ondestry function to end to subscription make it unsubscribe . That is helpful for memory leaks.
+6. Then try to use to show the model value in to html <h1>   {{id}} </h1>
+
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/4ec9821e-9d29-49ca-ac63-0bc158526c0d)
+
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/2806b664-790a-4332-a74e-27748486f4bd)
+
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/984267d8-88e5-448a-bfd6-1d74aebcc398)
+
+**On Edit  Bustton Show Edit Component and Update Valus into Db **
+
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/e591cf94-21b5-4702-8184-6736b905f845)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
