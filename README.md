@@ -295,6 +295,27 @@ before Call API need to understand **Subscriber** This allows us to keep our log
 4. It is always a best practice to unsubscribe from subscriptions when they are no longer needed to ensure the smooth functioning of your application.
 5. **Main them is that when the API connection is done so we need to destroy all Objects of API Service from the application**.
 
+**Example of Unsubscription **
+in add-training-compoinent 
+1. export class AddTraningComponent implements OnDestroy
+2. private addyTrainingSubscription?:Subscription;
+3.    this.addCategorySubscription= this.categoryService.addCaterory(this.model).subscribe({
+
+      next:(response)=>{
+         // console.log("Success");
+         this.router.navigateByUrl('/Admin/Categories');
+      },
+      error:(error)=>{
+        console.log('Fail'+ error );
+      }
+    });
+4. ngOnDestroy(): void {
+    // when Subscription completed on destroyed callas Subscripotion will be unsubscribed
+    this.addCategorySubscription?.unsubscribe();
+  }
+
+
+
  
  
 
