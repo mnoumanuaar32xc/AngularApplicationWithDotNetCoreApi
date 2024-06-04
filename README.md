@@ -1,4 +1,4 @@
-# Angular Application With Dot Net Core Api
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/bcdf2887-f155-4d2f-baa5-25b184892ea2)# Angular Application With Dot Net Core Api
 
 Before Start Angular please go through bellow api , this API we will use in Angular Application.
 https://github.com/mnoumanuaar32xc/AuthCoreApi
@@ -11,15 +11,16 @@ At least knowledge about (.NET , .NET Core , Asp. Net , MVC, Web Forms , SQL Ser
 2. Structure of Angular
 3. Routoing
 4. Observable | Subscribers
-5. CORS  
-6. Directives (RouterLink)
-7. How CSS , JS , HTML workis in Angular
-8. Create Nav Bar
-9. Perform Curad Operation Create Traning, List of Traning, Delete Traning, Update Traning.
-10. Login Page then Logout
-11. Access on operation by using Authorization
-12. State Management| Local and Cookies Statemanagement.
-13. JWT toekn access etc
+5. Unsubscribing from Observables
+6. CORS  
+7. Directives (RouterLink)
+8. How CSS , JS , HTML workis in Angular
+9. Create Nav Bar
+10. Perform Curad Operation Create Traning, List of Traning, Delete Traning, Update Traning.
+11. Login Page then Logout
+12. Access on operation by using Authorization
+13. State Management| Local and Cookies Statemanagement.
+14. JWT toekn access etc
 
 # Setting Up Development Environmen 
 We need to setup all the Software and Packages which are need to develop the application and that need to run our course smoothly.
@@ -286,8 +287,15 @@ before Call API need to understand **Subscriber** This allows us to keep our log
 
  After Submit form you can see the status 
  ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/9ffe9c80-32ca-40b3-a261-da15e9fabd37)
+ 
+ **Unsubscribing from Observables** 
+1. unsubscribing from observables in Angular is crucial for proper management of memory, optimizing performance, preventing ghost subscriptions, and avoiding unnecessary network requests and improving the code maintainability.
+2. So a lot of factors are there in the favor of unsubscribing observables.
+3. It can lead to memory leaks.
+4. It is always a best practice to unsubscribe from subscriptions when they are no longer needed to ensure the smooth functioning of your application.
+5. **Main them is that when the API connection is done so we need to destroy all Objects of API Service from the application**.
 
- **Show lits of all tranings which are added.**
+ 
  
 
 
