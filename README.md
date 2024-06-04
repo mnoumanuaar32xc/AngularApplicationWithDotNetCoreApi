@@ -1,7 +1,7 @@
-![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/a5499047-20f2-4193-b033-1605408462c1)![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/2740558c-91cd-4a40-866d-51779f9bd04d)# Angular Application With Dot Net Core Api
+# Angular Application With Dot Net Core Api
 
 Before Start Angular please go through bellow api , this API we will use in Angular Application.
-# https://github.com/mnoumanuaar32xc/AuthCoreApi
+https://github.com/mnoumanuaar32xc/AuthCoreApi
 
 # Prerequisites  
 At least knowledge about (.NET , .NET Core , Asp. Net , MVC, Web Forms , SQL Server, Bootstrap CSS, JS, Java queries , EF etc).
