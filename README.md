@@ -1,4 +1,4 @@
-# Angular Application With Dot Net Core Api
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/ee5f4972-993b-43be-9ed9-8003544b7123)# Angular Application With Dot Net Core Api
 
 Before Start Angular please go through bellow api , this API we will use in Angular Application.
 https://github.com/mnoumanuaar32xc/AuthCoreApi
@@ -17,10 +17,11 @@ At least knowledge about (.NET , .NET Core , Asp. Net , MVC, Web Forms , SQL Ser
 8. How CSS , JS , HTML workis in Angular
 9. Create Nav Bar
 10. Perform Curad Operation Create Traning, List of Traning, Delete Traning, Update Traning.
-11. Login Page then Logout
-12. Access on operation by using Authorization
-13. State Management| Local and Cookies Statemanagement.
-14. JWT toekn access etc
+11. Create Environment File  
+12. Login Page then Logout
+13. Access on operation by using Authorization
+14. State Management| Local and Cookies Statemanagement.
+15. JWT toekn access etc
 
 # Setting Up Development Environmen 
 We need to setup all the Software and Packages which are need to develop the application and that need to run our course smoothly.
@@ -314,9 +315,16 @@ in add-training-compoinent
     this.addCategorySubscription?.unsubscribe();
   }
 
-
-
  
+  **Create Angular Service GET ALL Trainings**
+  Ist create a model in Angular 
+  Create a function in service get all Trainings and call the model in observable
+  ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/956247cb-25a3-4334-9215-8e191930f11b)
+
+
+  
+ 
+
  
 
 
