@@ -1,4 +1,4 @@
-# Angular Application With Dot Net Core Api
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/a5499047-20f2-4193-b033-1605408462c1)![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/2740558c-91cd-4a40-866d-51779f9bd04d)# Angular Application With Dot Net Core Api
 
 Before Start Angular please go through bellow api , this API we will use in Angular Application.
 # https://github.com/mnoumanuaar32xc/AuthCoreApi
@@ -10,15 +10,16 @@ At least knowledge about (.NET , .NET Core , Asp. Net , MVC, Web Forms , SQL Ser
 1. Installation for Angular application development (for Windows)
 2. Structure of Angular
 3. Routoing
-4. Subscribers
-5. Directives (RouterLink)
-6. How CSS , JS , HTML workis in Angular
-7. Create Nav Bar
-8. Perform Curad Operation Create Traning, List of Traning, Delete Traning, Update Traning.
-9. Login Page then Logout
-10. Access on operation by using Authorization
-11. State Management| Local and Cookies Statemanagement.
-12. JWT toekn access etc
+4. Observable | Subscribers
+5. CORS  
+6. Directives (RouterLink)
+7. How CSS , JS , HTML workis in Angular
+8. Create Nav Bar
+9. Perform Curad Operation Create Traning, List of Traning, Delete Traning, Update Traning.
+10. Login Page then Logout
+11. Access on operation by using Authorization
+12. State Management| Local and Cookies Statemanagement.
+13. JWT toekn access etc
 
 # Setting Up Development Environmen 
 We need to setup all the Software and Packages which are need to develop the application and that need to run our course smoothly.
@@ -265,9 +266,31 @@ Then in terminal create a service  ng g s traning-services
 bellow image shows I implement Get traning, Get traning ID , Add Training, Update Training, Delete Training 
 ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/e5c7cf37-5946-4d1f-89a4-d7457286fdfa)
 
+**Observables**
+In Angular, Observables are part of the Reactive Extensions for JavaScript (RxJS) library. Observables provide support for passing messages between parts of your application.
+Observables are a powerful feature used extensively in reactive programming to handle asynchronous operations and data streams.
+Observables provide a way to subscribe to and receive notifications when new data or events are emitted, enabling you to react to changes in real-time.
+
+**CORS**
+Cross-origin resource sharing (CORS) is a mechanism for integrating applications. CORS defines a way for client web applications that are loaded in one domain to interact with resources in a different domain.It is the way to protect the API resource.  
+ 
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/7e2e6315-4b94-4c9b-bfeb-6ab88e2c27ad)
+In Progam.css allow the CROS then restart the application.
+If API is with HTTPS then stop the PowerShell app and restart with SST true 
+ng serve --open --ssl true
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/52e90572-5180-4def-be87-41750ae10e50)
+
 **Call the Add Training API by UI**
 before Call API need to understand **Subscriber** This allows us to keep our logic for making API calls and subscribing to its results in a separate file from our component, making our code more maintainable and easier to read.
  ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/c16bea1c-ea7d-4f27-8ae6-660933ddc16d)
+
+ After Submit form you can see the status 
+ ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/9ffe9c80-32ca-40b3-a261-da15e9fabd37)
+
+ **Show lits of all tranings which are added.**
+ 
+
+
 
 
 
