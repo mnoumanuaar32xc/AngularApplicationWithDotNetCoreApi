@@ -1,7 +1,44 @@
 
+<div class="container">
 
-<h1> 
-    <p>traning-list works!</p>
+    <h1 class="mt-3">training List</h1>
 
- 
-</h1>
+
+<div class="d-flex  justify-content-end mt-3">
+    
+<!-- <a routerLink="/traning/AddNewTraning">Add Traning</a> -->
+<a   [routerLink]="['/traning/AddNewTraning']" class="btn btn-primary">Add Traning </a>
+
+</div>
+
+<!-- with obesravbile  <ng-container *ngIf="categories" > -->
+<!-- with Sync Pipe -->
+<ng-container *ngIf="training$  | async as trainings" >
+<table  class="table table-bordered mt-3">
+    
+<thead>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>lavel</th>
+        <th> </th>
+    </tr>
+</thead>
+
+<tbody>
+<tr *ngFor="let training of trainings">
+<td>{{training.id}}</td>
+<td>{{training.name}}</td>
+<td>{{training.lavel}}</td>
+<td> 
+    <a  class="btn btn-light" [routerLink]="['/traning/EditTraing', training.id]
+    ">Edit</a>
+</td>
+</tr>
+
+</tbody>
+</table>
+
+</ng-container>
+
+</div>
