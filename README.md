@@ -346,9 +346,17 @@ async pipe subscribes to the observable and updates the view whenever new data i
 
 ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/984267d8-88e5-448a-bfd6-1d74aebcc398)
 
-**On Edit  Bustton Show Edit Component and Update Valus into Db **
+# On Edit  Bustton Show Edit Component and Update Valus into Db 
 
 ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/e591cf94-21b5-4702-8184-6736b905f845)
+
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/cf070ff9-f809-45c4-b06a-1ba79a25d821)
+
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/22a85eff-2676-4122-9e5a-1b9596e33a3e)
+
+
+# On Delete  Button delete  row into Db 
+
 
 
 
