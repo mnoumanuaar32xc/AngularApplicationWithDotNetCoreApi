@@ -1,4 +1,4 @@
-# Angular Application With Dot Net Core Api
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/3a2340e2-65f1-412c-b37c-7508420b7008)# Angular Application With Dot Net Core Api
 
 Before Start Angular please go through bellow api , this API we will use in Angular Application.
 https://github.com/mnoumanuaar32xc/AuthCoreApi
@@ -376,7 +376,8 @@ daleteTraining(id: string): Observable<training> {
 ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/198a675e-19df-45de-9ae5-d05da04ca708)
 ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/b4e8edeb-173c-4798-885e-a4680b30ac77)
 
-# Create Login Component 
+# Create Login Component  Changes after login  User name , and Logout button show and hide login button
+ # Logout Button and hide login button 
 
 ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/6aa47586-0bda-498e-9639-5269beb27ed8)
 
@@ -409,24 +410,30 @@ setuser(user :User): void{
     });
   }
 
+after login you will see the logout button because user class have values 
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/b8318dfb-02cb-42fc-9a35-2b9a93db042e)
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/5dffc231-6f92-4a4f-8e0c-5a00a7355f8b)
 
+
+# Secure JWT toke Securely UI
+Now we have to store this JWT token so that we can use this JWT token for subsequent requests so that our Angular application can consume the endpoints that are blocked by the API.
+back to Visual Studio code and first install this package and back in the application, and I'll open the terminal and in here I will write 
+NPM install nginx NXG Cookie Service
+Npm install ngx-cookie-service –save
+If not work then forcefully add by bellow command 
+npm install ngx-cookie-service --save --force
+ 
+# After Login redirect to Home page and set the token in Cookies 
+
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/6b90fdba-73e3-41bb-a829-64bd644515cb)
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/b90fac89-4d82-4191-b187-e628ef4e6b28)
+
+
+# Nav Bar show as per Roles 
+go to Navbar component and set roles 
+<ng-container *ngIf="user !== undefined && user?.roles?.includes('WRITER')">
 
  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
  
 
