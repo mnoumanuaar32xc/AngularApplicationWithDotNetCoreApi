@@ -356,8 +356,62 @@ async pipe subscribes to the observable and updates the view whenever new data i
 
 
 # On Delete  Button delete  row into Db 
+daleteTraining(id: string): Observable<training> {
+    // Make the POST request with the correct structure
+    //return this.http.delete<training>(`${environment.apiBaseUrl}/api/Training/${id}` );
+  return this.http.delete<training>(`${environment.apiBaseUrl}/api/Training/${id}`);
+}
+
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/0ab9d1d9-e09e-4ee1-a2cd-7f042779007c)
 
 
+# Authentication and Authorization UI  Login component UI 
+1. Add a login button on NavBar
+2. create interface model USER
+3. create service class AuthServiceService
+4. Create a login component
+
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/25da5e91-bb77-4d4f-860d-dac78664ca2c)
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/0bae534d-5f52-4b53-ac99-bdf661ffa3e4)
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/198a675e-19df-45de-9ae5-d05da04ca708)
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/b4e8edeb-173c-4798-885e-a4680b30ac77)
+
+# Create Login Component 
+
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/6aa47586-0bda-498e-9639-5269beb27ed8)
+
+1. create Login component
+2. add page in routing.modul.ts
+3. set use in aut service
+setuser(user :User): void{
+
+    this.$user.next (user);
+
+    localStorage.setItem('user-email',user.Email);
+    localStorage.setItem('user-roles',user.roles.join(','));
+ 
+  }
+4. onFormSubmit 
+ onFormSubmit(): void {
+    this.authService.login(this.model)
+    .subscribe({
+      next: (response) => { 
+        // Set User in local storage befor rediect 
+        this.authService.setuser({
+          Email: response.email,
+          roles: response.roles
+        });
+
+        // Redirect back to Home
+         this.router.navigateByUrl('/');
+
+      }
+    });
+  }
+
+
+
+ 
 
 
 
