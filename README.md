@@ -1,4 +1,8 @@
-# Angular Application With Dot Net Core Api
+# Creating an Angular Application with a .NET Core API
+
+Combining Angular's powerful client-side framework with the robust capabilities of a .NET Core API provides a comprehensive solution for developing high-performance web applications.
+This guide will take you through the essential steps to integrate these technologies seamlessly. We'll cover setting up your development environment, understanding Angular's architecture, implementing routing, managing state, and handling essential features like authentication and CRUD operations. By the end of this guide, you'll have a solid understanding of how to build a scalable and maintainable Angular application backed by a .NET Core API.
+
 
 Before Start Angular please go through bellow api , this API we will use in Angular Application.
 https://github.com/mnoumanuaar32xc/AuthCoreApi
@@ -22,6 +26,24 @@ At least knowledge about (.NET , .NET Core , Asp. Net , MVC, Web Forms , SQL Ser
 13. Access on operation by using Authorization
 14. State Management| Local and Cookies Statemanagement.
 15. JWT toekn access etc
+
+### Key Topics Include:
+
+1. **Installation for Angular setup of IDE etc  (Windows)**
+2. **Understanding Angular’s Structure**
+3. **Implementing Routing**
+4. **Handling Observables and Subscribers**
+5. **Effective Unsubscribing**
+6. **Managing CORS**
+7. **Using Directives (RouterLink)**
+8. **Working with CSS, JS, HTML in Angular**
+9. **Creating a Navigation Bar**
+10. **Performing CRUD Operations**
+11. **Creating Environment Files**
+12. **Building a Login Page and Logout Functionality**
+13. **Authorization for Access Control**
+14. **State Management (Local and Cookies)**
+15. **JWT Token Handling**
 
 # Setting Up Development Environmen 
 We need to setup all the Software and Packages which are need to develop the application and that need to run our course smoothly.
