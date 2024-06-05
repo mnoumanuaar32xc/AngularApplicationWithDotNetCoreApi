@@ -338,7 +338,7 @@ async pipe subscribes to the observable and updates the view whenever new data i
 3. In EditeComponent.ts file inject the activated route
 4. Create onint function get the routs parms value by pams id
 5. Add the subscription and use the ondestry function to end to subscription make it unsubscribe . That is helpful for memory leaks.
-6. Then try to use to show the model value in to html <h1>   {{id}} </h1>
+6. Then try to use to show the model value in to html.
 
 ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/4ec9821e-9d29-49ca-ac63-0bc158526c0d)
 
@@ -356,23 +356,84 @@ async pipe subscribes to the observable and updates the view whenever new data i
 
 
 # On Delete  Button delete  row into Db 
+daleteTraining(id: string): Observable<training> {
+    // Make the POST request with the correct structure
+    //return this.http.delete<training>(`${environment.apiBaseUrl}/api/Training/${id}` );
+  return this.http.delete<training>(`${environment.apiBaseUrl}/api/Training/${id}`);
+}
+
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/0ab9d1d9-e09e-4ee1-a2cd-7f042779007c)
 
 
+# Authentication and Authorization UI  Login component UI 
+1. Add a login button on NavBar
+2. create interface model USER
+3. create service class AuthServiceService
+4. Create a login component
+
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/25da5e91-bb77-4d4f-860d-dac78664ca2c)
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/0bae534d-5f52-4b53-ac99-bdf661ffa3e4)
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/198a675e-19df-45de-9ae5-d05da04ca708)
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/b4e8edeb-173c-4798-885e-a4680b30ac77)
+
+# Create Login Component  Changes after login  User name , and Logout button show and hide login button
+# Logout Button and hide login button 
+
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/6aa47586-0bda-498e-9639-5269beb27ed8)
+
+1. create Login component
+2. add page in routing.modul.ts
+3. set use in aut service
+setuser(user :User): void{
+
+    this.$user.next (user);
+
+    localStorage.setItem('user-email',user.Email);
+    localStorage.setItem('user-roles',user.roles.join(','));
+ 
+  }
+4. onFormSubmit 
+ onFormSubmit(): void {
+    this.authService.login(this.model)
+    .subscribe({
+      next: (response) => { 
+        // Set User in local storage befor rediect 
+        this.authService.setuser({
+          Email: response.email,
+          roles: response.roles
+        });
+
+        // Redirect back to Home
+         this.router.navigateByUrl('/');
+
+      }
+    });
+  }
+
+# after login you will see the logout button because user class have values 
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/b8318dfb-02cb-42fc-9a35-2b9a93db042e)
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/5dffc231-6f92-4a4f-8e0c-5a00a7355f8b)
 
 
+# Secure JWT toke Securely UI
+Now we have to store this JWT token so that we can use this JWT token for subsequent requests so that our Angular application can consume the endpoints that are blocked by the API.
+back to Visual Studio code and first install this package and back in the application, and I'll open the terminal and in here I will write 
+NPM install nginx NXG Cookie Service
+Npm install ngx-cookie-service –save
+If not work then forcefully add by bellow command 
+npm install ngx-cookie-service --save --force
+ 
+# After Login redirect to Home page and set the token in Cookies 
+
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/6b90fdba-73e3-41bb-a829-64bd644515cb)
+![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/b90fac89-4d82-4191-b187-e628ef4e6b28)
 
 
+# Nav Bar show as per Roles 
+go to Navbar component and set roles 
+<ng-container *ngIf="user !== undefined && user?.roles?.includes('WRITER')">
 
-
-
-
-
-
-
-
-
-
-
+ 
 
  
 
