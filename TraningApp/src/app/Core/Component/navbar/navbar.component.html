@@ -15,12 +15,32 @@
               Admin
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" routerLink="/Traning/tranings">Traningls</a></li> 
+              <ng-container *ngIf="user !== undefined && user?.roles?.includes('WRITER')">
+        
+              <li><a class="dropdown-item" routerLink="/Traning/tranings">Traningls</a></li>
+              </ng-container> 
             </ul>
           </li>
         
         </ul>
-       
+        <div class="d-flex">
+          <ng-container *ngIf="user === undefined;else showLogout">
+            <!-- Show Login Button -->
+            <a [routerLink]="['/login']" class="btn btn-primary">Login</a>
+  
+          </ng-container>
+          <ng-template #showLogout>
+            <div class="d-flex align-items-center">
+              <span>{{user?.Email}}</span>
+              <button class="btn btn-primary ms-3" (click)="Logout()">Logout</button>
+  
+            </div>
+  
+          </ng-template>
+  
+  
+        </div>
+        
       </div>
     </div>
   </nav>

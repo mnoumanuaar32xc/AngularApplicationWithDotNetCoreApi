@@ -10,6 +10,7 @@ import { FormsModule } from '@angular/forms';
 
 import {HTTP_INTERCEPTORS, HttpClientModule} from '@angular/common/http';
 import { EditTrainingComponent } from './Features/Traning/edit-training/edit-training/EditTrainingComponent';
+import { LoginComponent } from './Features/auth/login/login/login.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { EditTrainingComponent } from './Features/Traning/edit-training/edit-tra
     NavbarComponent,
     TraningListComponent,
     AddTraningComponent,
-    EditTrainingComponent
+    EditTrainingComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
