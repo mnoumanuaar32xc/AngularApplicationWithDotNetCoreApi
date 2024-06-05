@@ -338,7 +338,7 @@ async pipe subscribes to the observable and updates the view whenever new data i
 3. In EditeComponent.ts file inject the activated route
 4. Create onint function get the routs parms value by pams id
 5. Add the subscription and use the ondestry function to end to subscription make it unsubscribe . That is helpful for memory leaks.
-6. Then try to use to show the model value in to html <h1>   {{id}} </h1>
+6. Then try to use to show the model value in to html.
 
 ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/4ec9821e-9d29-49ca-ac63-0bc158526c0d)
 
@@ -377,7 +377,7 @@ daleteTraining(id: string): Observable<training> {
 ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/b4e8edeb-173c-4798-885e-a4680b30ac77)
 
 # Create Login Component  Changes after login  User name , and Logout button show and hide login button
- # Logout Button and hide login button 
+# Logout Button and hide login button 
 
 ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/6aa47586-0bda-498e-9639-5269beb27ed8)
 
@@ -410,7 +410,7 @@ setuser(user :User): void{
     });
   }
 
-after login you will see the logout button because user class have values 
+# after login you will see the logout button because user class have values 
 ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/b8318dfb-02cb-42fc-9a35-2b9a93db042e)
 ![image](https://github.com/mnoumanuaar32xc/AngularApplicationWithDotNetCoreApi/assets/8413883/5dffc231-6f92-4a4f-8e0c-5a00a7355f8b)
 
