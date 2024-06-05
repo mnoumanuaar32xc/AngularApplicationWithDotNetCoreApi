@@ -10,23 +10,6 @@ https://github.com/mnoumanuaar32xc/AuthCoreApi
 # Prerequisites  
 At least knowledge about (.NET , .NET Core , Asp. Net , MVC, Web Forms , SQL Server, Bootstrap CSS, JS, Java queries , EF etc).
 
-# We Will try 
-1. Installation for Angular application development (for Windows)
-2. Structure of Angular
-3. Routoing
-4. Observable | Subscribers
-5. Unsubscribing from Observables
-6. CORS  
-7. Directives (RouterLink)
-8. How CSS , JS , HTML workis in Angular
-9. Create Nav Bar
-10. Perform Curad Operation Create Traning, List of Traning, Delete Traning, Update Traning.
-11. Create Environment File  
-12. Login Page then Logout
-13. Access on operation by using Authorization
-14. State Management| Local and Cookies Statemanagement.
-15. JWT toekn access etc
-
 ### Key Topics Include:
 
 1. **Installation for Angular setup of IDE etc  (Windows)**
